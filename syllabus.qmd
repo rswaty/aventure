@@ -11,9 +11,11 @@ toc-depth: 2
 
 **This is a draft syllabus as of November 29, 2023, subject to change.**
 
-## Welcome to "Introduction to R and GitHub for Reproducible Research"!
+## Welcome to "Introduction to R and GitHub for Reproducible Research"
 
-Recently I was asked by Dr. Adam Langley if I would be willing to teach an R class, spring of 2024.  I do not take teaching lightly-it is challenging, time-consuming and a big responsibility.  That said, I love working with students, believe that learning to code is important and does not have to be miserable so I happily said 'yes'.  I am truly happy to be here with you.
+WAIT-did this coder guy make a typo in the URL of this website? I did not, though typos are not uncommon for me (should bullets have periods?).  "Aventure" is French for 'adventure', or so Google tells me.  Since we are learning a language, R, and I see this as a bit of adventure, it seemed appropriate.  I guess technically I am the teacher, but more realistically I am your guide or coach.
+
+How did this all happen? Recently I was asked by Dr. Adam Langley if I would be willing to teach an R class, spring of 2024.  I do not take teaching lightly-it is challenging, time-consuming and a big responsibility.  That said, I love working with students, believe that learning to code is important and does not have to be miserable so I happily said 'yes'.  I am truly happy to be here with you.
 
 Who am I?  By day I am an ecologist with The Nature Conservancy's LANDFIRE team, where on a good day I help land managers prioritize what to do where through collaborative modeling, GIS, data analysis and presentation.  Also on good days I get to interact with members of the [Conservation Data Lab](https://conservationdatalab.org/), a small group of students and young professionals who are learning technical skills, contributing to conservation solutions and building an amazing community.  Oh a bad day I am stuck in my inbox, or being blamed for something I didn't do ("Swaty, you are the reason I lost my fire crew".  More on that later.). Outside of work I am married with two sons (20 and 23yo), love fixing and building things, spend a lot of time outside, and try to play music on my old cornet.
 
