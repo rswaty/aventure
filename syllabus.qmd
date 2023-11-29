@@ -1,0 +1,85 @@
+---
+title: "Introduction to R and GitHub for Reproducible Research"
+author: Randy Swaty
+date-modified: today
+format: html
+editor: source
+theme: flatly
+toc: true
+toc-depth: 2
+---
+
+**This is a draft syllabus as of November 29, 2023, subject to change.**
+
+## Welcome to "Introduction to R and GitHub for Reproducible Research"!
+
+Recently I was asked by Dr. Adam Langley if I would be willing to teach an R class, spring of 2024.  I do not take teaching lightly-it is challenging, time-consuming and a big responsibility.  That said, I love working with students, believe that learning to code is important and does not have to be miserable so I happily said 'yes'.  I am truly happy to be here with you.
+
+Who am I?  By day I am an ecologist with The Nature Conservancy's LANDFIRE team, where on a good day I help land managers prioritize what to do where through collaborative modeling, GIS, data analysis and presentation.  Also on good days I get to interact with members of the [Conservation Data Lab](https://conservationdatalab.org/), a small group of students and young professionals who are learning technical skills, contributing to conservation solutions and building an amazing community.  Oh a bad day I am stuck in my inbox, or being blamed for something I didn't do ("Swaty, you are the reason I lost my fire crew".  More on that later.). Outside of work I am married with two sons (20 and 23yo), love fixing and building things, spend a lot of time outside, and try to play music on my old cornet.
+
+## What you will be able to do at the end of this course
+
+* Make a website in R, hosted on GitHub
+* Import, and prep data for analysis and visualization with beautiful R code
+* Make nicely formatted documents and slides
+* Troubleshoot pesky errors
+* Spend 2 hours trying to get commas in your y-axis labels :)
+* Avoid all Microsoft products if you want (and if your collaborators agree-more on this later)
+* Do some specialized work in R based on your interests and needs
+
+All of this adds up to doing reproducible research in R.  Your work will be documented, nicely presented, repeatable.
+
+*This assumes you practice R, as you would practice a musical instrument, support each other and be patient.  You must 'go slow to go fast', else you will end up with a tangle of meaningless code and less hair.*
+
+## What you will **not** learn from me
+
+* How to memorize code
+* Statistics
+* Hard-core programming.  In other words we will not deep into the kernel, refactoring like mad scientists, and optimizing for every microsecond.  Whatever that means.
+
+## How will we do all of this?
+
+* Use r-markdown/Quarto files for everything.  Even your grocery lists.
+* Post all work to GitHub.
+* Work through already developed online tutorials, together, adding our own twists for fun.
+* Share code, ideas, feedback.
+* Learn coding through interests.  Want to analyze and visualize your Spotify data?  Have at it (see https://www.rcharlie.com/spotifyr/)!
+* Aim for deliverables.  Why do all this work if you can't share it?
+* Use AI wisely.
+
+*Also, I know everyone learns at different speeds and in different ways.  I will try my best to accommodate.  For example, I will try to always give "if you are bored and want to learn more" options.*
+
+## Basic flow
+
+* Get to know each other.  What kind of learner are you?  Are you high or low context?  What do you do for fun?  Knowing this will help me to know just how confused I might make you (I am a high-context basher lumper kind of person), the kinds of analogies that might make sense and what sorts of data, packages and analyses might interest you.
+* Install, tour and set up R and R-Studio
+* Get started with r-markdown/Quarto files.  Explore ways to use these files.
+* Get connected with GitHub
+* Make a website, a simple one, for when you want to share something.
+* Work through R for Reproducible Scientific Analysis with a few detours for fun 
+* Set you off on your own path through development of your own learning plan
+
+## My basic philosophy, and grading method
+
+* You all have an A until proven otherwise.  I assume you are amazing, crafty, driven, honest and fun people aiming to make the world a better place.  That is why I am doing this.
+* You are all unique, which makes teaching so interesting.  With a "participation grade" for example, would it be fair for me to force introverts to participate as much as extroverts?  That said, maybe the introverts want to learn to speak up more and the extroverts to listen more.  Wow I am over simplifying.  
+    
+This all sounds so obtuse and fluffy.  So how will you be graded?  We are going to do this as it might be done in the so-called 'real-world', meaning we will follow this process:
+
+* In January I will send out a generic "job-objectives" document that you will customize based on your research and interests. 
+* Mid-February you will assess yourself against these objectives, I will comment on your assessment and add my thoughts.  I will assign a "grade" which we will discuss and agree to.
+* We will repeat this process monthly, adding a step where we adjust your objectives as needed.  For example, if I see that you make great charts, but your code is a mess, we will add completion of tutorials on writing understandable code.  In another example, if in your research you learn that you need to visualize genetic data, we will add learning objectives around that.
+* Twice along the way I will set up an anonymous peer-review to get feedback from your peers.
+
+## My requests
+
+To be read in a "plea" voice:
+
+* Please turn your camera on, or if it's not on say why in the chat.  Why can be almost anything (e.g. "eating my oatmeal"). Let us know you are there and engaged.  I do not want to be a radio announcer speaking one-way to an audience I cannot see.
+* Please show up. Bring your full self.
+* Please do not plug up my inbox.  I really want to serve you, and feel that spending my time *with* you is much more effective.  Please communicate with me and the class in our meetings as much as possible.  That said, DO feel free to e-mail me with issues you do not want to share with the class.  Many of your questions will be shared by your colleagues.
+
+
+
+
+

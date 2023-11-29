@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.335">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Randy Swaty">
+
+<title>Introduction to R and GitHub for Reproducible Research</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="syllabus_files/libs/clipboard/clipboard.min.js"></script>
+<script src="syllabus_files/libs/quarto-html/quarto.js"></script>
+<script src="syllabus_files/libs/quarto-html/popper.min.js"></script>
+<script src="syllabus_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="syllabus_files/libs/quarto-html/anchor.min.js"></script>
+<link href="syllabus_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="syllabus_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="syllabus_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="syllabus_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="syllabus_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul class="collapse">
+  <li><a href="#welcome-to-introduction-to-r-and-github-for-reproducible-research" id="toc-welcome-to-introduction-to-r-and-github-for-reproducible-research" class="nav-link active" data-scroll-target="#welcome-to-introduction-to-r-and-github-for-reproducible-research">Welcome to “Introduction to R and GitHub for Reproducible Research”!</a></li>
+  <li><a href="#what-you-will-be-able-to-do-at-the-end-of-this-course" id="toc-what-you-will-be-able-to-do-at-the-end-of-this-course" class="nav-link" data-scroll-target="#what-you-will-be-able-to-do-at-the-end-of-this-course">What you will be able to do at the end of this course</a></li>
+  <li><a href="#what-you-will-not-learn-from-me" id="toc-what-you-will-not-learn-from-me" class="nav-link" data-scroll-target="#what-you-will-not-learn-from-me">What you will <strong>not</strong> learn from me</a></li>
+  <li><a href="#how-will-we-do-all-of-this" id="toc-how-will-we-do-all-of-this" class="nav-link" data-scroll-target="#how-will-we-do-all-of-this">How will we do all of this?</a></li>
+  <li><a href="#basic-flow" id="toc-basic-flow" class="nav-link" data-scroll-target="#basic-flow">Basic flow</a></li>
+  <li><a href="#my-basic-philosophy-and-grading-method" id="toc-my-basic-philosophy-and-grading-method" class="nav-link" data-scroll-target="#my-basic-philosophy-and-grading-method">My basic philosophy, and grading method</a></li>
+  <li><a href="#my-requests" id="toc-my-requests" class="nav-link" data-scroll-target="#my-requests">My requests</a></li>
+  </ul>
+</nav>
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Introduction to R and GitHub for Reproducible Research</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Randy Swaty </p>
+          </div>
+  </div>
+    
+  
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">November 29, 2023</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+</header>
+
+<p><strong>This is a draft syllabus as of November 29, 2023, subject to change.</strong></p>
+<section id="welcome-to-introduction-to-r-and-github-for-reproducible-research" class="level2">
+<h2 class="anchored" data-anchor-id="welcome-to-introduction-to-r-and-github-for-reproducible-research">Welcome to “Introduction to R and GitHub for Reproducible Research”!</h2>
+<p>Recently I was asked by Dr.&nbsp;Adam Langley if I would be willing to teach an R class, spring of 2024. I do not take teaching lightly-it is challenging, time-consuming and a big responsibility. That said, I love working with students, believe that learning to code is important and does not have to be miserable so I happily said ‘yes’. I am truly happy to be here with you.</p>
+<p>Who am I? By day I am an ecologist with The Nature Conservancy’s LANDFIRE team, where on a good day I help land managers prioritize what to do where through collaborative modeling, GIS, data analysis and presentation. Also on good days I get to interact with members of the <a href="https://conservationdatalab.org/">Conservation Data Lab</a>, a small group of students and young professionals who are learning technical skills, contributing to conservation solutions and building an amazing community. Oh a bad day I am stuck in my inbox, or being blamed for something I didn’t do (“Swaty, you are the reason I lost my fire crew”. More on that later.). Outside of work I am married with two sons (20 and 23yo), love fixing and building things, spend a lot of time outside, and try to play music on my old cornet.</p>
+</section>
+<section id="what-you-will-be-able-to-do-at-the-end-of-this-course" class="level2">
+<h2 class="anchored" data-anchor-id="what-you-will-be-able-to-do-at-the-end-of-this-course">What you will be able to do at the end of this course</h2>
+<ul>
+<li>Make a website in R, hosted on GitHub</li>
+<li>Import, and prep data for analysis and visualization with beautiful R code</li>
+<li>Make nicely formatted documents and slides</li>
+<li>Troubleshoot pesky errors</li>
+<li>Spend 2 hours trying to get commas in your y-axis labels :)</li>
+<li>Avoid all Microsoft products if you want (and if your collaborators agree-more on this later)</li>
+<li>Do some specialized work in R based on your interests and needs</li>
+</ul>
+<p>All of this adds up to doing reproducible research in R. Your work will be documented, nicely presented, repeatable.</p>
+<p><em>This assumes you practice R, as you would practice a musical instrument, support each other and be patient. You must ‘go slow to go fast’, else you will end up with a tangle of meaningless code and less hair.</em></p>
+</section>
+<section id="what-you-will-not-learn-from-me" class="level2">
+<h2 class="anchored" data-anchor-id="what-you-will-not-learn-from-me">What you will <strong>not</strong> learn from me</h2>
+<ul>
+<li>How to memorize code</li>
+<li>Statistics</li>
+<li>Hard-core programming. In other words we will not deep into the kernel, refactoring like mad scientists, and optimizing for every microsecond. Whatever that means.</li>
+</ul>
+</section>
+<section id="how-will-we-do-all-of-this" class="level2">
+<h2 class="anchored" data-anchor-id="how-will-we-do-all-of-this">How will we do all of this?</h2>
+<ul>
+<li>Use r-markdown/Quarto files for everything. Even your grocery lists.</li>
+<li>Post all work to GitHub.</li>
+<li>Work through already developed online tutorials, together, adding our own twists for fun.</li>
+<li>Share code, ideas, feedback.</li>
+<li>Learn coding through interests. Want to analyze and visualize your Spotify data? Have at it (see https://www.rcharlie.com/spotifyr/)!</li>
+<li>Aim for deliverables. Why do all this work if you can’t share it?</li>
+<li>Use AI wisely.</li>
+</ul>
+<p><em>Also, I know everyone learns at different speeds and in different ways. I will try my best to accommodate. For example, I will try to always give “if you are bored and want to learn more” options.</em></p>
+</section>
+<section id="basic-flow" class="level2">
+<h2 class="anchored" data-anchor-id="basic-flow">Basic flow</h2>
+<ul>
+<li>Get to know each other. What kind of learner are you? Are you high or low context? What do you do for fun? Knowing this will help me to know just how confused I might make you (I am a high-context basher lumper kind of person), the kinds of analogies that might make sense and what sorts of data, packages and analyses might interest you.</li>
+<li>Install, tour and set up R and R-Studio</li>
+<li>Get started with r-markdown/Quarto files. Explore ways to use these files.</li>
+<li>Get connected with GitHub</li>
+<li>Make a website, a simple one, for when you want to share something.</li>
+<li>Work through R for Reproducible Scientific Analysis with a few detours for fun</li>
+<li>Set you off on your own path through development of your own learning plan</li>
+</ul>
+</section>
+<section id="my-basic-philosophy-and-grading-method" class="level2">
+<h2 class="anchored" data-anchor-id="my-basic-philosophy-and-grading-method">My basic philosophy, and grading method</h2>
+<ul>
+<li>You all have an A until proven otherwise. I assume you are amazing, crafty, driven, honest and fun people aiming to make the world a better place. That is why I am doing this.</li>
+<li>You are all unique, which makes teaching so interesting. With a “participation grade” for example, would it be fair for me to force introverts to participate as much as extroverts? That said, maybe the introverts want to learn to speak up more and the extroverts to listen more. Wow I am over simplifying.</li>
+</ul>
+<p>This all sounds so obtuse and fluffy. So how will you be graded? We are going to do this as it might be done in the so-called ‘real-world’, meaning we will follow this process:</p>
+<ul>
+<li>In January I will send out a generic “job-objectives” document that you will customize based on your research and interests.</li>
+<li>Mid-February you will assess yourself against these objectives, I will comment on your assessment and add my thoughts. I will assign a “grade” which we will discuss and agree to.</li>
+<li>We will repeat this process monthly, adding a step where we adjust your objectives as needed. For example, if I see that you make great charts, but your code is a mess, we will add completion of tutorials on writing understandable code. In another example, if in your research you learn that you need to visualize genetic data, we will add learning objectives around that.</li>
+<li>Twice along the way I will set up an anonymous peer-review to get feedback from your peers.</li>
+</ul>
+</section>
+<section id="my-requests" class="level2">
+<h2 class="anchored" data-anchor-id="my-requests">My requests</h2>
+<p>To be read in a “plea” voice:</p>
+<ul>
+<li>Please turn your camera on, or if it’s not on say why in the chat. Why can be almost anything (e.g.&nbsp;“eating my oatmeal”). Let us know you are there and engaged. I do not want to be a radio announcer speaking one-way to an audience I cannot see.</li>
+<li>Please show up. Bring your full self.</li>
+<li>Please do not plug up my inbox. I really want to serve you, and feel that spending my time <em>with</em> you is much more effective. Please communicate with me and the class in our meetings as much as possible. That said, DO feel free to e-mail me with issues you do not want to share with the class. Many of your questions will be shared by your colleagues.</li>
+</ul>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
