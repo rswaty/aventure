@@ -1,0 +1,59 @@
+---
+title: "Working with Randy: a Manual"
+format: revealjs
+editor: visual
+css: slides.css
+---
+
+## About me-professionally {.center}
+
+I am an Ecologist with The Nature Conservancy's LANDFIRE team, where I do GIS analysis, science communications, and a fair amount of coding in R.
+
+![](images/me_blueberries.jpg){fig-align="center"}
+
+## I love to \[try to\] teach {.center}
+
+![](images/kian_I_joes.jpg){fig-align="center"}
+
+## I am a high context communicator {.center}
+
+![](images/sign.jpg){fig-align="center" width="500"}
+
+<p style="text-align: center;">
+
+This means that I will be totally confusing some of the time to some of you. You will need to ask for clarification from me, or (!) your classmates.
+
+</p>
+
+## Even though I code a lot {.center}
+
+<p style="text-align: center;">
+
+Still there is so much I don't know. You will need to lean on your own brainpower, Google, your peers and that elephant in the room.
+
+</p>
+
+<br>
+
+*Also, I solve a lot of problems while walking, making things or doing dishes. While I really REALLY want to solve your problem RIGHT NOW, you may get a faster result on Slack :)*
+
+## I am more of a coach than a prof {.center}
+
+![](images/sam_and_i.jpg){fig-align="center" width="500"}
+
+<br>
+
+<p style="text-align: center;">
+
+If you ever catch me showing you more than 10 slides, and/or if I have more than 30 words on a slide please YELL at me!
+
+</p>
+
+## And a few specifics
+
+* Please, PLEASE, *please* try Google, AI and/or Slack and taking a walk before you e-mail me.
+
+* Take our "performance conversations" seriously
+
+* Give me feedback.  I am here to serve and want this to be valuable.  
+

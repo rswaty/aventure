@@ -1,0 +1,107 @@
+---
+title: "Day by Day"
+author: "Randy Swaty"
+format: html
+editor: visual
+---
+
+## January, 2024
+
+-   Randy days away: none
+
+### January 16-introductions, admin and "how to work with Randy"
+
+1.  Greetings (end at 8:40)! You are in a course called "Introduction to R and GitHub for Reproducible Research" taught by me, Randy Swaty.
+2.  Extended introductions (9:00). I firmly believe we need to 'go slow to go fast', and that we need to know each other. I do not believe in throwing you to the coding wolves, at least not much. **Name, major, rose, bud, thorn**.
+3.  About me, so you know what you are getting into (9:10).
+4.  Go over syllabus. Talk computers, grading, ideal set up (second monitor, mouse, etc.)(9:20)
+5.  Admin (9:45):
+    -   set up GitHub accounts. Username-important. Go simple, include last name if possible. This could be a pain with 2-factor sign-in.
+    -   fill out Google Form
+    -   get everyone signed up for Slack
+
+**I need to:**
+
+-   [x] set up Google Form with:
+
+    -   First and Last Name
+    -   Rating of previous R experience
+    -   Text box about previous R experience
+    -   Goals for this class
+    -   GitHub user name
+    -   e-mail
+
+-   test setting up github account with Finn or Kian or ??
+
+-   [x] set up Slack channel
+
+### January 18-install R and R-Studio, Happy Git With R
+
+-   Greetings! Everyone OK? Do we have any new folks? Go over any Google Form results (end 8:45)
+
+-   What is R, R-Studio and GitHub? (end 9:00)
+
+-   Install R and R-Studio (9:15)
+
+-   Happy Git With R (9:40). They have GitHub accounts already I hope!
+
+-   Implore to finish Happy Git with R, post to Slack
+
+**I need to:**
+
+-   check Google Form results
+
+### January 23-check git, set up r-studio, demo project and organization
+
+1.  Greetings! How'd everyone do with the Happy Git with R? (end at 8:40)
+2.  What is R? What is all that stuff I downloaded? Open R, do some math, write some comments, make a plot (8:50). Everyone!
+3.  Tour and set up R-Studio. Go through the panes, and options (end at 9:00)
+    - do not open most recent r-studio project
+    - appearance
+    -
+4.  Explain and set up a directory, importance of organization (9:15).
+    -   when you open R/R-Studio it knows nothing.\
+    -   demo reading in a file that is not in the project directory and explain how this is a pain for you and others
+5.  The better approach (9:30 ish)
+    -   have everyone open and start a new repo then an r-studio project "r_examples"
+    -   dir.create code, data, outputs
+    -   create a beetle dataset, save as .csv.\  ###COMMENT CODE!
+    -   make a plot
+    -   save plot
+    
+Why not save r when you close?
+
+Stage, commit, push
+
+
+### January 25-Check in, Quarto! Project set up review, first homework!
+
+1.  Greetings-questions?  (end at 8:40)
+2.  Habit-open r-studio, recent projects, example_r, PULL (end 8:50)
+3.  New Quarto file (end 9:00)
+    * 3 components
+    * Visual and source.  Go to source
+    * Render see HTML
+4.  Headers (different than commenting code!), bold, italics, bullets, table of contents, running code (9:10)
+5.  Some blogs for the curious
+    * https://www.r-bloggers.com/
+    * https://rweekly.org/
+    * https://rladies.org/
+    
+**HOMEWORK**
+Take notes, report out on something cool
+
+6. Quick wins
+    * https://r-graph-gallery.com/
+    * demo this work in a quarto file
+    * save data and chart and quarto appropriately
+    
+**HOMEWORK** 
+* make a chart using in quarto file with notes BASE R and comments in the r-code
+* save data and chart appropriately
+
+
+
+
+
+
