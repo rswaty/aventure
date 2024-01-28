@@ -56,50 +56,54 @@ editor: visual
 1.  Greetings! How'd everyone do with the Happy Git with R? (end at 8:40)
 2.  What is R? What is all that stuff I downloaded? Open R, do some math, write some comments, make a plot (8:50). Everyone!
 3.  Tour and set up R-Studio. Go through the panes, and options (end at 9:00)
-    - do not open most recent r-studio project
-    - appearance
-    -
-4.  Explain and set up a directory, importance of organization (9:15).
-    -   when you open R/R-Studio it knows nothing.\
+    -   do not open most recent r-studio project
+    -   appearance
+4.  Explain importance of organization and projects in R-Studio (9:15).
+    -   when you open R/R-Studio it knows nothing.
     -   demo reading in a file that is not in the project directory and explain how this is a pain for you and others
 5.  The better approach (9:30 ish)
     -   have everyone open and start a new repo then an r-studio project "r_examples"
     -   dir.create code, data, outputs
-    -   create a beetle dataset, save as .csv.\  ###COMMENT CODE!
+    -   create a beetle dataset, save as .csv.  ###COMMENT CODE!
     -   make a plot
     -   save plot
-    
+
 Why not save r when you close?
 
 Stage, commit, push
 
-
 ### January 25-Check in, Quarto! Project set up review, first homework!
 
-1.  Greetings-questions?  (end at 8:40)
+1.  Greetings-questions? (end at 8:40)
 2.  Habit-open r-studio, recent projects, example_r, PULL (end 8:50)
 3.  New Quarto file (end 9:00)
-    * 3 components
-    * Visual and source.  Go to source
-    * Render see HTML
+    -   3 components
+    -   Visual and source. Go to source
+    -   Render see HTML
 4.  Headers (different than commenting code!), bold, italics, bullets, table of contents, running code (9:10)
 5.  Some blogs for the curious
-    * https://www.r-bloggers.com/
-    * https://rweekly.org/
-    * https://rladies.org/
-    
-**HOMEWORK**
-Take notes, report out on something cool
+    -   https://www.r-bloggers.com/
+    -   https://rweekly.org/
+    -   https://rladies.org/
 
-6. Quick wins
-    * https://r-graph-gallery.com/
-    * demo this work in a quarto file
-    * save data and chart and quarto appropriately
-    
-**HOMEWORK** 
+**HOMEWORK** Take notes, report out on something cool
+
+6.  Quick wins
+    -   https://r-graph-gallery.com/
+    -   demo this work in a quarto file
+    -   save data and chart and quarto appropriately
+
+**HOMEWORK**
+
 * make a chart using in quarto file with notes BASE R and comments in the r-code
+
 * save data and chart appropriately
 
+## January 30, 2024
+
+1. Check in-how was homework?  Find any cool things?  I summarize what I found in repos (end 9:00)
+2. Intro to https://swcarpentry.github.io/r-novice-gapminder/index.html
+3. Call people out for meetings
 
 
 
