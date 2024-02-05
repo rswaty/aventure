@@ -28,3 +28,9 @@ Over the course it is expected you will:
 2.  Assist with issues on in class and on Slack.
 
 ## Personal objectives
+
+-   tidy data
+
+-   thesis in quarto
+
+-   make up or bring in other data maybe from Sam and Adam

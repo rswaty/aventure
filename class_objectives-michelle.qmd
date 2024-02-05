@@ -28,3 +28,15 @@ Over the course it is expected you will:
 2.  Assist with issues on in class and on Slack.
 
 ## Personal objectives
+
+-   senior thesis N and P on waterways by mangroves
+
+-   data from 1986. is there a correlation between land use change and nutrients in water
+
+-   used GIS to map mangrove to uban
+
+-   learn the lubridate package
+
+-   set up zoom with Randy
+
+-   introduce to Izzy

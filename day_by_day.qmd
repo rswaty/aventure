@@ -95,17 +95,29 @@ Stage, commit, push
 
 **HOMEWORK**
 
-* make a chart using in quarto file with notes BASE R and comments in the r-code
+-   make a chart using in quarto file with notes BASE R and comments in the r-code
 
-* save data and chart appropriately
+-   save data and chart appropriately
 
 ## January 30, 2024
 
-1. Check in-how was homework?  Find any cool things?  I summarize what I found in repos (end 9:00)
-2. Intro to https://swcarpentry.github.io/r-novice-gapminder/index.html
-3. Call people out for meetings
+1.  Check in-how was homework? Find any cool things? I summarize what I found in repos (end 9:00)
+2.  Intro to https://swcarpentry.github.io/r-novice-gapminder/index.html
+3.  Call people out for meetings
 
+## February  1, 2024
 
+1.  Welcome and answer questions (end at 8:40)
+2.  Review some of the lessons of Chapter 1 of https://swcarpentry.github.io/r-novice-gapminder/index.html
+    1.  What is a vector?
+    2.  ls section! Note that if we run 'ls' alone we get all of the code that makes the function 'ls'
+    3.  What is a package? Try to install chorddiag. Show <http://www.sthda.com/english/wiki/installing-and-using-r-packages>
+3.  Continue meetings
 
+**Homework**:
 
+-   <https://datacarpentry.org/R-ecology-lesson/01-intro-to-r.html#vectors-and-data-types> and <http://www.sthda.com/english/wiki/installing-and-using-r-packages> DO in your 'reproducible_analysis' repo
 
+-   show me your directory
+
+-   add a chart to your r_examples repo

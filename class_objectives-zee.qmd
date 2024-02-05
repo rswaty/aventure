@@ -1,5 +1,5 @@
 ---
-title: "Class Objectives"
+title: "Class Objectives-Zee"
 format: docx
 editor: visual
 ---
@@ -26,5 +26,11 @@ Over the course it is expected you will:
 
 1.  Provide respectful feedback in class and on Slack.
 2.  Assist with issues on in class and on Slack.
+
+**Zee's objectives**
+
+-   learn about cellular data
+
+-   find cellular data to analyze and visualize
 
 ## Personal objectives
